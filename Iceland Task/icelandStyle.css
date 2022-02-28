@@ -1,0 +1,616 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-image: url("icelandmainimg.jpg");
+  
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 130%;
+  position: relative;
+  color: white;
+}
+
+.line {
+  height: 2px;
+  width: 140px;
+  background-color: white;
+}
+
+nav {
+  position: absolute;
+  right: 8%;
+  top: 5%;
+  list-style-type: none;
+  padding-left: 150px;
+}
+nav > .line {
+  position: absolute;
+  left: 0;
+  top: 9%;
+  
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+}
+#iceland {
+  opacity: 1;
+}
+
+.titles > h1 {
+  font-size: 128px;
+  margin: 5px 0px;
+  opacity: 1;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 33%;
+  bottom: 40%;
+  left: 15%;
+  opacity: 0.9;
+}
+
+.titles_linediv {
+  display: flex;
+  width: 100%;
+}
+.titles_linediv > .line {
+  align-self: center;
+  margin-right: 10px;
+  width: 120px;
+}
+
+/*---------------------*/
+.section2 {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  position: relative;
+}
+
+#section2_halfhidden {
+  width: 60%;
+  display: flex;
+  height: 70%;
+  box-shadow: 0px 5px 5px #ececec;
+  position: absolute;
+  right: 5%;
+  top: -10%;
+  background: white;
+}
+
+#virtical {
+  height: 100%;
+  width: 50%;
+}
+
+#section2_halfhidden_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding-left: 20px;
+  color: #4c5057;
+}
+
+#section2_halfhidden_right > .line {
+  background-color: #acb0b6;
+  width: 100px;
+  position: absolute;
+  top: 9%;
+  margin-left: 30px;
+}
+#section2_halfhidden_right > h1 {
+  font-size: 98px;
+  margin-bottom: 7%;
+  margin-left: 30px;
+  margin-top: 45%;
+}
+
+#section2_halfhidden_right > p {
+  margin-left: 30px;
+  max-width: 75%;
+  margin-bottom: 75%;
+}
+
+#section2_learnmore_btn {
+  width: 30%;
+  margin-left: 30px;
+  background-color: transparent;
+  border: 1px solid #d2d6dd;
+  padding: 15px 10px;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 10%;
+}
+
+#section2_upperZ {
+  width: 50%;
+  height: 50%;
+  background-image: url("wondersimg.jpg");
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  left: 4%;
+  top: 30%;
+}
+
+#section2_icons {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#section2_icons > * {
+  padding: 45px 30px;
+  color: white;
+}
+
+/*---------------------*/
+
+.section3 {
+  height: 65%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-left: 15%;
+}
+
+#bigA {
+  margin-top: 0px;
+  font-size: 400px;
+  align-self: flex-start;
+  background-image: url("biga.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+#sections3_right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  color: rgb(76, 80, 87);
+  margin-left: 5%;
+  position: relative;
+}
+#sections3_right > .line {
+  background-color: #acb0b6;
+  position: absolute;
+  top: 5%;
+  left: 0.5%;
+}
+
+#section3_ps {
+  display: flex;
+  justify-content: space-evenly;
+
+  width: 60%;
+  font-size: 22px;
+}
+#section3_ps > p {
+  padding-right: 2%;
+}
+#sections3_right > h2 {
+  font-size: 40px;
+}
+
+/*---------------------*/
+
+.section4 {
+  height: 80%;
+  width: 100%;
+  display: flex;
+}
+
+#section4_main {
+  background-image: url("volcano.jpg");
+  width: 90%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0px 20px;
+  box-sizing: border-box;
+}
+
+#section4_main_texts {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: white;
+}
+#section4_main_texts > h1 {
+  font-size: 64px;
+  margin-bottom: 0px;
+}
+#section4_main_texts > h2 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-bottom: 30%;
+  opacity: 0.7;
+}
+#section4_main_texts > .fa-circle-play {
+  opacity: 0.7;
+}
+
+.section4 > img {
+  width: 5%;
+  overflow: hidden;
+}
+
+#arrows {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#arrows > * {
+  padding: 230px 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/*----------------------------*/
+
+.section5{
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+    margin-top: 10%;
+    height: 50%;
+    margin-left:5%
+}
+
+#section5_icons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+    color: #32353A;
+}
+
+#section5_icons > li{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding:10px 30px;
+}
+#section5_ps{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    color: #797D82;
+    font-size: 18px;
+    margin-left:17% ;
+}
+#section5_ps > p{
+    padding: 0px 40px;
+}
+#section5_ps_p1{
+    text-align: right;
+    color: #32353A;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/*----------------------------*/
+
+.section6{
+    height: 90%;
+    width: 100%;
+    display: flex;
+}
+
+.section6 > img {
+    width:140%;
+}
+
+#section6_right{
+    background-color:#1D1F22;
+    display:flex;
+    flex-direction:column;
+    padding-left: 3%;
+    position:relative;
+    padding-top: 10px;
+}
+
+#section6_right > h1{
+    color:white;
+    font-size:110px;
+    margin-bottom:5px;
+}
+#section6_right > h1 > span {
+    opacity: 0.5;
+}
+#section6_right > .line{
+    position:absolute;
+    top:13%;
+    width:100px;
+    margin-left: 6px;
+}
+
+#section6_right > p{
+    color:white;
+    width:45%;
+    color: rgb(142,143,144);
+}
+
+#section6_filling{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-bottom: 10px;
+    color: rgb(142,143,144);
+    font-size:13px;
+}
+
+
+#section6_exp > #filled {
+    background-color:rgb(15,225,252);
+    width:110px;
+    height:3.5px;
+    position:relative;
+    top:2px;
+}
+
+#section6_exp > #empty {
+    background-color:rgb(74,75,78);
+}
+
+#section6_int > .line{
+    background-color:rgb(15,225,252);
+    height:3.5px;
+    position:relative;
+    top:2px;
+}
+
+#section6_btn {
+    width: 22%;
+    background-color: rgb(59, 59, 59);
+    color:white;
+    border: none;
+    padding: 25px 10px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 20%;
+  }
+
+
+  /*------------------------------------------*/
+  .section7 {
+    background-color: white;
+    width: 100%;
+    height: 80%;
+    position: relative;
+  }
+  
+  #section7_halfhidden {
+    width: 55%;
+    display: flex;
+    height: 80%;
+    box-shadow: 0px -1px 5px 5px #d8d6d6;
+    margin-top: 10%;
+   margin-left:10%;
+    background: white;
+  }
+  
+  #section7_virtical {
+    height: 100%;
+    width:100%;
+  }
+  
+  #section7_halfhidden_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding-left: 20px;
+    color: #4c5057;
+    padding-top: 5%;
+  }
+  
+  #section7_halfhidden_left > .line {
+    background-color: #acb0b6;
+    width: 100px;
+    position: absolute;
+    top: 13%;
+    margin-left: 30px;
+  }
+  #section7_halfhidden_left > h1 {
+    font-size: 98px;
+    margin-bottom: 7%;
+    margin-left: 30px;
+    margin-top: 30%;
+  }
+  
+  #section7_halfhidden_left > p {
+    margin-left: 30px;
+    max-width: 60%;
+    margin-bottom: 75%;
+  }
+  
+  #section7_learnmore_btn {
+    width: 30%;
+    margin-left: 30px;
+    background-color: transparent;
+    border: 1px solid #d2d6dd;
+    padding: 25px 10px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 12%;
+  }
+  
+  #section7_upperZ {
+    width: 50%;
+    height: 60%;
+    background-image: url("wondersimg.jpg");
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 42.85%;
+    bottom: 5%;
+  }
+
+  /*------------------------*/
+
+  .section8{
+      display: flex;
+      height: 110%;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      margin-top:5%;
+      
+  }
+
+  .section8 > .line{
+  background-color: rgb(167, 167, 167);
+  position: relative;
+  width:100px;
+  top:3%;
+    opacity:0.6;
+}
+.section8 > h1{
+    font-size:50px;
+    color:rgb(76,80,87);
+}
+
+  #section8_twoimgs{
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    height: 60%;
+    margin-left: 7%;
+  }
+
+  #section8_bigimg{
+      background-image: url("volcano.jpg");
+      color: white;
+      background-repeat: no-repeat;
+  background-size: cover;
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-end;
+      padding-left:3%;
+      font-size: 25px;
+  }
+  #section8_bigimg > h1{
+    margin-top: 0px;
+  }
+ #section8_bigimg > h2{
+    margin-bottom: 0px;
+    color:rgb(131, 128, 128) ;
+  }
+  
+
+  #section8_imgs{
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      margin-left:1% ;
+  }
+
+  .section8_smallimg{
+      background-image:url("icelandmainimg.jpg");
+      height: 48.7%;
+      width: 45%;
+     color: white;
+      margin: 0px 2.5% 2.5% 0%;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-end;
+      padding-left:3%;
+      
+  }
+  .section8_smallimg > h2{
+      margin-bottom: 0px;
+      color:rgb(131, 128, 128) ;
+  }
+  .section8_smallimg > h1{
+      margin-top: 0px;
+  }
+ 
+  /*-------------------------------*/
+  
+  footer{
+      height: 65%;
+      width: 100%;
+      background-color: rgb(46,49,51);
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      color:rgb(148, 148, 148);
+      
+  }
+
+  #footer_text{
+      text-align: center;
+      position: relative;
+      top:19%;
+  }
+  #footer_text > h1{
+      font-size:80px;
+      margin-bottom: 0px;
+      color:rgb(212,213,213);
+  }
+  #footer_text > h2{
+    font-size:20px;
+}
+
+  footer > form{
+      display: flex;
+      height: 13%;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      width: 20%;
+  }
+
+  footer > form > input{
+    background-color:transparent;
+    padding: 10px 0px 5px 0px;
+    border: none;
+    border-bottom: 1px solid rgba(212,213,213,0.6);
+    margin-bottom: 10px;
+    
+  }
+
+  footer > form > button {
+      background-color:rgb(60,63,65);
+      border:none;
+      width:50%;
+      color:white;
+      padding: 25px 40px;
+      border-radius: 35px;
+      margin-top: 20%;
+      align-self: center;
+  }
+
+  #last{
+      display: flex;
+      width: 90%;
+      justify-content: space-between;
+      margin-bottom:1%;
+  }
