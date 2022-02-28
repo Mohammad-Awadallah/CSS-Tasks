@@ -1,0 +1,158 @@
+
+html,body{
+    height:100%;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #FCF4ED;
+}
+
+
+container{
+    height:45em;
+    width:80em;
+    display:flex;
+    background-color: rgb(255, 255, 255);
+}
+
+img{
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width:50%;
+    max-height:100%;
+    display: block;
+   
+}
+
+.left_div{
+    flex-grow: 1;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.welcome {
+    margin-top:5em;
+}
+.welcome p{
+    color:rgb(189, 189, 189);
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    margin-top:3em;
+    margin-left:auto;
+    margin-right:auto;
+    width:25em;
+    
+}
+
+#inputdiv{
+   font-size: 11px;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+}
+#label1{
+    position:absolute;
+    top:10px;
+    left:12px;
+    color:#BFC5CD;
+}
+#label2{
+    position:absolute;
+    top:65px;
+    left:12px;
+    color:#BFC5CD;
+}
+
+#emailid, #passwordid{
+    padding:5px;
+    padding-top:10px;
+    margin:5px;
+    max-width:100%;
+    height:30px ;
+    border:1px solid #dddfe2;
+    border-radius:5px;
+    text-indent: 10px;
+}
+
+
+
+
+
+.checkbox_forgot{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+button{
+    max-width:100%;
+    padding:5px;
+    margin-bottom:10px;
+    margin-top: 15px;
+    background-color: #0079d3;
+    border:none;
+    height:44px;
+    color:white;
+    border-radius:5px;
+    
+}
+button:hover{
+    background-color:rgb(146, 204, 255);
+}
+
+a{
+    color:rgb(201, 195, 195);
+    text-decoration:none;
+    font-size:0.8em;
+}
+
+#forgotmypw::before{
+
+    content: '?';
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 0.5em;
+    height: 0.5em;
+    
+    line-height: 0.5em;
+    border-radius: 1.2ex;
+    margin-right: 4px;
+    padding: 0.5px;
+    color:rgb(201, 195, 195);
+    background: rgb(161, 161, 161);
+    border: 1px solid rgb(201, 195, 195);
+    text-decoration: none;
+}
+
+
+h1{
+    color:red;
+    text-align: center;
+    position: relative;
+    top:1em;
+}
+
+#p2{
+    position: relative;
+    top:20%;
+    color:rgb(201, 195, 195);
+    font-size:0.8em;
+}
+
+
+@media(max-width:800px){
+    img{
+        display: none;
+    }
+}
